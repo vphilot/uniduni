@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{DAFA8293-A053-684A-D8AA-1AA3CCE73216}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Level2/Spring.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Level1/Catapult.cs" Line="7" Column="1" />
+      <File FileName="Assets/Scripts/LevelManager.cs" />
+      <File FileName="Assets/Scripts/Level2/Spring.cs" Line="14" Column="1" />
+      <File FileName="Assets/Scripts/Shared/Chest.cs" Line="16" Column="35" />
+      <File FileName="Assets/Scripts/DialogueTrigger.cs" Line="12" Column="6" />
+      <File FileName="Assets/Scripts/PlayerController2D.cs" Line="119" Column="1" />
+      <File FileName="Assets/Scripts/Level10/Propeller.cs" Line="46" Column="1" />
+      <File FileName="Assets/Scripts/Level04/Spikes.cs" Line="16" Column="1" />
+      <File FileName="Assets/Scripts/Level10/ProppellerTrigger.cs" Line="20" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Uni Duni Test 1" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="_backuo" expanded="True" />
+                <Node name="Level04" expanded="True" />
+                <Node name="Level1" expanded="True" />
+                <Node name="Level10" expanded="True" />
+                <Node name="Level2" expanded="True">
+                  <Node name="Spring.cs" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5fdbbe13-3c49-4feb-b649-2001195f2a29" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

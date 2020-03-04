@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{DAFA8293-A053-684A-D8AA-1AA3CCE73216}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController2D.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PlayerController2D.cs" Line="79" Column="42" />
+      <File FileName="Assets/Scripts/ChestTrigger.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="PlayerController2D.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c17e2f06-948f-4768-8dfc-01c4c6d6df88" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
