@@ -25,6 +25,12 @@ public class PlayerController2D : MonoBehaviour
     private Vector2 screenBoundaries;
     private BoxCollider2D boxCollider2d;
 
+    private void Awake()
+    {
+        //avoids raycast on GO's own collider
+        Physics2D.queriesStartInColliders = false;
+    }
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>(); 
@@ -32,8 +38,8 @@ public class PlayerController2D : MonoBehaviour
         boxCollider2d = GetComponent<BoxCollider2D>();
 
         //merging layer masks
-        //finalMask = whatIsGround | whatIsPlayer;
-        finalMask = whatIsGround;
+        finalMask = whatIsGround | whatIsPlayer;
+        //finalMask = whatIsGround;
 
         //setting the controls if player 1 or 2
 
@@ -41,7 +47,7 @@ public class PlayerController2D : MonoBehaviour
         {
             playerKeys.Add("up", KeyCode.W);
             playerKeys.Add("down", KeyCode.S);
-            playerKeys.Add("left", KeyCode.A);
+            playerKeys.Add("left", KeyCode.A); 
             playerKeys.Add("right", KeyCode.D);
         }
         else if (playerSelector == PlayerSelector.PlayerTwo)

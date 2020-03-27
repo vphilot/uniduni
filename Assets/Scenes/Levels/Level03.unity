@@ -475,6 +475,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd08dc58d22554edf8839dda7470c4f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hasExternalCondition: 0
+  isExternalConditionSatisfied: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3454,7 +3456,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1510500028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.5, y: 0.5, z: 0}
+  m_LocalPosition: {x: 5.5, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1967111899}
@@ -3469,7 +3471,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1510500028}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 8f4ddc58bf6894bc2ae9c311af78d4ec, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -3501,7 +3503,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: -2.4952836, y: -3.7764182}
-  m_ConnectedAnchor: {x: 3.0047164, y: -3.2764182}
+  m_ConnectedAnchor: {x: 3.0047164, y: -1.7764182}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 20
@@ -3524,7 +3526,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 2
-  m_AngularDrag: 0.05
+  m_AngularDrag: 20
   m_GravityScale: 1
   m_Material: {fileID: 6200000, guid: 8f4ddc58bf6894bc2ae9c311af78d4ec, type: 2}
   m_Interpolate: 0
@@ -3890,7 +3892,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1682441160}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0.5, z: 0}
+  m_LocalPosition: {x: -0.5, y: -0.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1967111899}
@@ -3911,7 +3913,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: -2.4952836, y: -3.7764182}
-  m_ConnectedAnchor: {x: -2.4952836, y: -3.2764182}
+  m_ConnectedAnchor: {x: -2.9952836, y: -4.026418}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 20
@@ -4187,7 +4189,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 2
-  m_AngularDrag: 0.05
+  m_AngularDrag: 20
   m_GravityScale: 1
   m_Material: {fileID: 6200000, guid: 8f4ddc58bf6894bc2ae9c311af78d4ec, type: 2}
   m_Interpolate: 0
@@ -4203,7 +4205,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1682441160}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 8f4ddc58bf6894bc2ae9c311af78d4ec, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
